@@ -1,0 +1,65 @@
+﻿
+<section id="about" class="s-about target-section">
+
+    <div class="row narrow section-intro has-bottom-sep">
+        <div class="col-full text-center">
+            <h3>Hakkımda</h3>
+            <h1>@ViewBag.Title</h1>
+            <p class="lead">@ViewBag.aboutSubDescription</p>
+        </div>
+
+        <div class="row about-content">
+
+            <div class="col-six tab-full left">
+                <h3>Ben Kimim?</h3>
+
+                <p>
+                    @ViewBag.aboutDetail</p>
+            </div>
+
+            <div class="col-six tab-full right">
+                <h3>Bazı Yeteneklerim</h3>
+
+                <ul class="skill-bars">
+                    <li>
+                        <div class="progress percent90"><span>90%</span></div>
+                        <strong>HTML5</strong>
+                    </li>
+                    <li>
+                        <div class="progress percent85"><span>85%</span></div>
+                        <strong>CSS3</strong>
+                    </li>
+                    <li>
+                        <div class="progress percent70"><span>70%</span></div>
+                        <strong>JQuery</strong>
+                    </li>
+                    <li>
+                        <div class="progress percent95"><span>95%</span></div>
+                        <strong>PHP</strong>
+                    </li>
+                    <li>
+                        <div class="progress percent75"><span>75%</span></div>
+                        <strong>Wordpress</strong>
+                    </li>
+                    <li>
+                        <div class="progress percent90"><span>90%</span></div>
+                        <strong>Angular JS</strong>
+                    </li>
+                </ul>
+            </div>
+
+        </div> <!-- end about-content -->
+
+        <div class="row about-content about-content--buttons">
+
+            <div class="col-six tab-full left">
+                <a href="#0" class="btn btn--primary full-width">CV' mi İndir'</a>
+            </div>
+            <div class="col-six tab-full right">
+                <a href="#0" class="btn full-width">Bana Yazın</a>
+            </div>
+
+        </div> <!-- end about-content buttons -->
+        @await Component.InvokeAsync("_ExperienceComponentPartial")
+
+</section> <!-- end about -->
