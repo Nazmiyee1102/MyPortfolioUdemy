@@ -1,3 +1,5 @@
+#MyPortfolioUdemy
+
 Portfolio Udemy Projesi - Murat Yücedağ. Bu proje Murat Yücedağ egitmenliginde udemy'de paylaştıgı 20 saatlik portfolio projesidir.
 Porfolyo egitimi olarak geliştirilmiş ve code first yaklaşımı temel alan projedir. Proje içeriğinde çeşitli yetenek yönetimini saglayan temel CRUD(Create, Read, Update, Delete) 
 kullanılmaktadır. Vitrin kısmında görüntülenmek üzere veriler veri tabanından çekilmektedir.
